@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Tabbed Interface Challenge</title>
     <style>
-        /* Active tab ki styling ke liye */
         .active {
             background-color: #007bff;
             color: white;
@@ -12,15 +11,11 @@
     </style>
 </head>
 <body>
-
-    <!-- 3 Tabs (Buttons) -->
     <div>
         <button class="tab-btn active" onclick="showTab(event, 'content1')">Tab 1</button>
         <button class="tab-btn" onclick="showTab(event, 'content2')">Tab 2</button>
         <button class="tab-btn" onclick="showTab(event, 'content3')">Tab 3</button>
     </div>
-
-    <!-- 3 Content Panels -->
     <div id="content1" class="tab-panel" style="display: block;">
         <p>This is paragraph 1.</p>
     </div>
