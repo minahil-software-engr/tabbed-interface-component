@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabbed Interface - Method 3 (DOM Removal)</title>
+</head>
+<body>
+
+    <div>
+        <button onclick="showTab(0)">Tab 1</button>
+        <button onclick="showTab(1)">Tab 2</button>
+        <button onclick="showTab(2)">Tab 3</button>
+    </div>
+
+    <div id="content-container">
+        <p>Yeh Tab 1 ka content hai.</p>
+    </div>
+
+    <template id="tab1-content">
+        <p>Yeh Tab 1 ka content hai.</p>
+    </template>
+    <template id="tab2-content">
+        <p>Yeh Tab 2 ka content hai.</p>
+    </template>
+    <template id="tab3-content">
+        <p>Yeh Tab 3 ka content hai.</p>
+    </template>
+
+    <script src="removing elements.js"></script>
+</body>
+</html>

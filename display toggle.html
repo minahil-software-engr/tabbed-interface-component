@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabbed Interface - Method 1</title>
+</head>
+<body>
+
+    <div>
+        <button onclick="showTab('content1')">Tab 1</button>
+        <button onclick="showTab('content2')">Tab 2</button>
+        <button onclick="showTab('content3')">Tab 3</button>
+    </div>
+
+    <div id="content1" style="display: block;">
+        <p>Yeh Tab 1 ka content hai.</p>
+    </div>
+
+    <div id="content2" style="display: none;">
+        <p>Yeh Tab 2 ka content hai.</p>
+    </div>
+
+    <div id="content3" style="display: none;">
+        <p>Yeh Tab 3 ka content hai.</p>
+    </div>
+
+    <script src="display toggle.js"></script>
+</body>
+</html>
